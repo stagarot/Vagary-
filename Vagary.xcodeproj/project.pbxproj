@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C4BEC361BF944B5EB3CB637 /* Pods_Vagary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F5CB0FB7333199D0682207D /* Pods_Vagary.framework */; };
 		7E1192482062C0D800B28B34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1192472062C0D800B28B34 /* AppDelegate.swift */; };
-		7E11924A2062C0D800B28B34 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1192492062C0D800B28B34 /* FirstViewController.swift */; };
-		7E11924C2062C0D800B28B34 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11924B2062C0D800B28B34 /* SecondViewController.swift */; };
-		7E11924F2062C0D800B28B34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E11924D2062C0D800B28B34 /* Main.storyboard */; };
-		7E1192512062C0D800B28B34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1192502062C0D800B28B34 /* Assets.xcassets */; };
-		7E1192542062C0D800B28B34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1192522062C0D800B28B34 /* LaunchScreen.storyboard */; };
+		7E11925C2062E93C00B28B34 /* FacebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11925B2062E93B00B28B34 /* FacebookViewController.swift */; };
+		7E11925F2062EDA800B28B34 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11925D2062EDA800B28B34 /* TableViewController.swift */; };
+		7E1192602062EDA800B28B34 /* TableViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E11925E2062EDA800B28B34 /* TableViewController2.swift */; };
+		7E1192632062EDB200B28B34 /* InstrumentationRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1192612062EDB100B28B34 /* InstrumentationRootViewController.swift */; };
+		7E1192642062EDB200B28B34 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1192622062EDB100B28B34 /* EditorViewController.swift */; };
+		7E1192662062EDBB00B28B34 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1192652062EDBB00B28B34 /* MapViewController.swift */; };
+		7E11926B2062EE1B00B28B34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E11926A2062EE1B00B28B34 /* Assets.xcassets */; };
+		7E1192702063327200B28B34 /* attractions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E11926F2063327200B28B34 /* attractions.json */; };
+		7E3C5F41207D0E5700C3D93D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E3C5F3F207D0E5700C3D93D /* Main.storyboard */; };
+		CD9B10ED206ECBC500DABB96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9B10EA206ECBC500DABB96 /* LaunchScreen.storyboard */; };
+		CDB693DE207C6F2F00CD7D61 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB693DD207C6F2F00CD7D61 /* Attraction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A8B7396CBDA27EE128BAE00 /* Pods-Vagary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vagary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Vagary/Pods-Vagary.debug.xcconfig"; sourceTree = "<group>"; };
 		7E1192442062C0D800B28B34 /* Vagary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vagary.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E1192472062C0D800B28B34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E1192492062C0D800B28B34 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7E11924B2062C0D800B28B34 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		7E11924E2062C0D800B28B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7E1192502062C0D800B28B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7E1192532062C0D800B28B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E1192472062C0D800B28B34 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E1192552062C0D900B28B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E11925B2062E93B00B28B34 /* FacebookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookViewController.swift; sourceTree = "<group>"; };
+		7E11925D2062EDA800B28B34 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		7E11925E2062EDA800B28B34 /* TableViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController2.swift; sourceTree = "<group>"; };
+		7E1192612062EDB100B28B34 /* InstrumentationRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstrumentationRootViewController.swift; sourceTree = "<group>"; };
+		7E1192622062EDB100B28B34 /* EditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		7E1192652062EDBB00B28B34 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7E11926A2062EE1B00B28B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E11926F2063327200B28B34 /* attractions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = attractions.json; sourceTree = "<group>"; };
+		7E3C5F40207D0E5700C3D93D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F5CB0FB7333199D0682207D /* Pods_Vagary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Vagary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F05E26517EDE0386728E827 /* Pods-Vagary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Vagary.release.xcconfig"; path = "Pods/Target Support Files/Pods-Vagary/Pods-Vagary.release.xcconfig"; sourceTree = "<group>"; };
+		CD9B10EB206ECBC500DABB96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDB693DD207C6F2F00CD7D61 /* Attraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4BEC361BF944B5EB3CB637 /* Pods_Vagary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66D5FD7DFF5FFB1979EB9445 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F5CB0FB7333199D0682207D /* Pods_Vagary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7E11923B2062C0D800B28B34 = {
 			isa = PBXGroup;
 			children = (
 				7E1192462062C0D800B28B34 /* Vagary */,
 				7E1192452062C0D800B28B34 /* Products */,
+				96CBBC30C06F346AA201D11E /* Pods */,
+				66D5FD7DFF5FFB1979EB9445 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,30 @@
 		7E1192462062C0D800B28B34 /* Vagary */ = {
 			isa = PBXGroup;
 			children = (
+				CD9B10EA206ECBC500DABB96 /* LaunchScreen.storyboard */,
+				7E3C5F3F207D0E5700C3D93D /* Main.storyboard */,
 				7E1192472062C0D800B28B34 /* AppDelegate.swift */,
-				7E1192492062C0D800B28B34 /* FirstViewController.swift */,
-				7E11924B2062C0D800B28B34 /* SecondViewController.swift */,
-				7E11924D2062C0D800B28B34 /* Main.storyboard */,
-				7E1192502062C0D800B28B34 /* Assets.xcassets */,
-				7E1192522062C0D800B28B34 /* LaunchScreen.storyboard */,
+				7E11926A2062EE1B00B28B34 /* Assets.xcassets */,
+				7E11926F2063327200B28B34 /* attractions.json */,
+				7E11925B2062E93B00B28B34 /* FacebookViewController.swift */,
+				CDB693DD207C6F2F00CD7D61 /* Attraction.swift */,
+				7E11925D2062EDA800B28B34 /* TableViewController.swift */,
+				7E11925E2062EDA800B28B34 /* TableViewController2.swift */,
+				7E1192652062EDBB00B28B34 /* MapViewController.swift */,
+				7E1192622062EDB100B28B34 /* EditorViewController.swift */,
+				7E1192612062EDB100B28B34 /* InstrumentationRootViewController.swift */,
 				7E1192552062C0D900B28B34 /* Info.plist */,
 			);
 			path = Vagary;
+			sourceTree = "<group>";
+		};
+		96CBBC30C06F346AA201D11E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A8B7396CBDA27EE128BAE00 /* Pods-Vagary.debug.xcconfig */,
+				9F05E26517EDE0386728E827 /* Pods-Vagary.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +116,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E1192582062C0D900B28B34 /* Build configuration list for PBXNativeTarget "Vagary" */;
 			buildPhases = (
+				01FEE8D426F218A69648337A /* [CP] Check Pods Manifest.lock */,
 				7E1192402062C0D800B28B34 /* Sources */,
 				7E1192412062C0D800B28B34 /* Frameworks */,
 				7E1192422062C0D800B28B34 /* Resources */,
+				6924C2E5BCF72AE0DF9319F5 /* [CP] Embed Pods Frameworks */,
+				4DD98F7230D1AF2C3F97D195 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,40 +171,108 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E1192542062C0D800B28B34 /* LaunchScreen.storyboard in Resources */,
-				7E1192512062C0D800B28B34 /* Assets.xcassets in Resources */,
-				7E11924F2062C0D800B28B34 /* Main.storyboard in Resources */,
+				CD9B10ED206ECBC500DABB96 /* LaunchScreen.storyboard in Resources */,
+				7E1192702063327200B28B34 /* attractions.json in Resources */,
+				7E11926B2062EE1B00B28B34 /* Assets.xcassets in Resources */,
+				7E3C5F41207D0E5700C3D93D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01FEE8D426F218A69648337A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Vagary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DD98F7230D1AF2C3F97D195 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vagary/Pods-Vagary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6924C2E5BCF72AE0DF9319F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Vagary/Pods-Vagary-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Vagary/Pods-Vagary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7E1192402062C0D800B28B34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E11924C2062C0D800B28B34 /* SecondViewController.swift in Sources */,
+				7E11925C2062E93C00B28B34 /* FacebookViewController.swift in Sources */,
+				7E1192642062EDB200B28B34 /* EditorViewController.swift in Sources */,
+				7E11925F2062EDA800B28B34 /* TableViewController.swift in Sources */,
+				7E1192602062EDA800B28B34 /* TableViewController2.swift in Sources */,
+				CDB693DE207C6F2F00CD7D61 /* Attraction.swift in Sources */,
+				7E1192632062EDB200B28B34 /* InstrumentationRootViewController.swift in Sources */,
 				7E1192482062C0D800B28B34 /* AppDelegate.swift in Sources */,
-				7E11924A2062C0D800B28B34 /* FirstViewController.swift in Sources */,
+				7E1192662062EDBB00B28B34 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7E11924D2062C0D800B28B34 /* Main.storyboard */ = {
+		7E3C5F3F207D0E5700C3D93D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7E11924E2062C0D800B28B34 /* Base */,
+				7E3C5F40207D0E5700C3D93D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7E1192522062C0D800B28B34 /* LaunchScreen.storyboard */ = {
+		CD9B10EA206ECBC500DABB96 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7E1192532062C0D800B28B34 /* Base */,
+				CD9B10EB206ECBC500DABB96 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -276,13 +389,14 @@
 		};
 		7E1192592062C0D900B28B34 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8B7396CBDA27EE128BAE00 /* Pods-Vagary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3HYJMRW67T;
+				DEVELOPMENT_TEAM = 7652ZX4BYS;
 				INFOPLIST_FILE = Vagary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.saritainc.Vagary;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.itbrain.stagarot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,13 +405,14 @@
 		};
 		7E11925A2062C0D900B28B34 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F05E26517EDE0386728E827 /* Pods-Vagary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3HYJMRW67T;
+				DEVELOPMENT_TEAM = 7652ZX4BYS;
 				INFOPLIST_FILE = Vagary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.saritainc.Vagary;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.com.itbrain.stagarot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

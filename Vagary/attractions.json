@@ -1,0 +1,95 @@
+{
+    "attractions": [
+               "Pyramid of the Sun",
+               "Frida Khalo Museum",
+               "Chapultepec",
+               "Palace of Fine Arts",
+               "Great Pyramid of Tenochtitlan",
+               "Museum Soumaya",
+               "Angel of Independence",
+               "Casa de los Azulejos",
+               "Leon Trotsky Museum",
+               "Diego Rivera Mural Museum",
+	           "Zocalo",
+	           "National Museum of Anthropology"
+               ],    
+    "details": [
+              {
+              "name": "Pyramid of the Sun",
+                  "distance": 51,
+                  "rating": 1,
+                    "info": "The Pyramid of the Sun is one of the largest structures in the Western Hemisphere , believed to have been constructed about 200 CE. The pyramid rises 216 feet (66 m) above ground level, and it measures approximately 720 by 760 feet (220 by 230 m) at its base.",
+                  "image":"pyramidImage"
+              },
+              {
+              "name":"Frida Khalo Museum",
+                  "distance": 11,
+                   "rating": 2,
+                   "info": "TIP: Buy tickets online before arriving. It is also known as the Blue House, is a historic house museum and art museum dedicated to the life and work of Mexican artist Frida Kahlo. It was the birthplace of the artist, where she also lived with her husband Diego rivera and later on died in on of the rooms of  the upper floor.",
+                  "image":"fridaImage"
+              },
+              {
+              "name":"Chapultepec",
+                  "distance": 3,
+                  "rating": 5,
+                  "info": "Is one of the largest city parks in the Western Hemisphere, measuring in total just over 686 hectares. In the colonial period, Chapultepec Castle was built here, eventually becoming the official residence of Mexican heads of state.",
+                  "image":"chapultepecImage"
+              },
+              {
+              "name":"Palace of Fine Arts",
+                  "distance": 3,
+                  "rating": 4,
+                  "info": "Called the “Cathedral of Art in Mexico” which has a mixture of a number of architectural styles; however, it is principally Art Nouveau and Art Deco. Also the Palace has been the scene of some of the most notable events in music, dance, theatre, opera and literature.",
+                  "image":"artsImage"
+              },
+              {
+              "name":"Great Pyramid of Tenochtitlan",
+                  "distance": 5,
+                  "rating": 2,
+                  "info": "Founded in 1325, it rose to be the capital of the Aztec Empire and the largest city in the Pre-Columbian World. It was captured by the Spanish in 1521, after which Cortés directed the destruction of the city. Although they did not fully destroyed it since ruins have been excavated, where the key feature was the Great Pyramid built by the great Montecuzoma.",
+                  "image":"tenochtitlanImage"
+              },
+              {
+              "name":"Museum Soumaya",
+                  "distance": 6,
+                  "rating": 4,
+                  "info": "It was designed by Mexican architect Fernando Romero. It is named after Soumaya Dormit who died in 1999 and was the wife of the founder Carlos Slim. it has over 66,000 works from 30 centuries of art.",
+                  "image":"soumayaImage"
+              },
+              {
+              "name":"Angel of Independence",
+                  "distance": 0,
+                  "rating": 3,
+                  "info": "Most commonly known as El Angel, is a victory column on a roundabout on the major thoroughfare of Paseo de l Reforma in downtown Mexico. It was ordered in 1900 by President Porfirio Diaz but in May 1906 the foundations collapsed; therefore engineers demolished the construction and restarted the project. The monument was completed in 1910 to commemorate the 100 years of Mexican Independence.",
+                  "image":"angelImage"
+              },
+              {
+              "name":"Casa de los Azulejos",
+                  "distance": 4,
+                  "rating": 7,
+                  "info": "Its an 18th century palace built by Count del Valle de Orizaba family.   The house is given its name since it is covered on three sides by blue and white tile of Puebla state.",
+                  "image":"casaImage"
+              },
+	      {
+              "name":"Leon Trotsky Museum",
+                  "distance": 17 ,
+                  "rating": 4,
+                   "info": "The Leon Trotsky House Museum honors  Leon Trotsky and an organization that works to promote political asylum in the Coyoacán.     The complex is the house where Trotsky and his second wife, Natalia Sedova, lived from 1939-1940, and where Trotsky was murdered.",
+                  "image":"trotskyImage"
+              },
+	      {
+              "name":"Diego Rivera Mural Museum",
+                  "distance": 5,
+                  "rating": 6,
+                  "info": "The museum has several pieces of one of the greatest muralists of all times: Diego Rivera. It is home to one of his most famous pieces: Dream of a Sunday Afternoon in the Alameda Central.",
+                  "image":"diegoImage"
+              },
+	      {
+              "name":"Zocalo",
+                  "distance": 2,
+                  "rating": 5,
+                   "info": "This is the main square in Mexico City. Prior to the colonial period, it was the main ceremonial center in the Aztec city of Tenochtitlan nowadays called “Templo Mayor”. It is bordered by the Cathedral to the north, the National Palace to the east, the Federal District buildings to the south and the Old Portal de Mercaderes to the west, the Nacional Monte de Piedad building at the north-west corner.",
+                  "image":"zocaloImage"
+              }
+    ]
+}
